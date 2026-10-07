@@ -1,0 +1,97 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 42, 255, 0.598);
+    font-family: sans-serif;
+}
+
+#h1 {
+    color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+}
+
+.hesap-makinesi {
+    background-color: #222;
+    padding: 20px;
+    width: 300px;
+    border-radius: 24px;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.3);
+    box-sizing: border-box;
+}
+
+#ekran {
+    background-color: #000000;
+    color: white;
+    font-size: 4rem;
+    text-align: right;
+    padding: 20px 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.tuslar {
+    display: grid;
+    grid-template-columns: repeat(4, 60px);
+    gap: 8px;
+}
+
+.tus {
+    aspect-ratio: 1 / 1;
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 50%;
+    background-color: #444;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.15s;
+
+    /* --- İçeriği ortalamak için eklenen kısım  ---*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    line-height: 1;
+    text-align: center;
+}
+
+.tus:hover {
+    background-color: #666;
+}
+
+#yuzde-btn {
+    background-color: #ff9500;
+}
+
+.islem {
+    background-color: #ff9500;
+}
+.islem:hover {
+    background-color: #ffaa33;
+}
+
+#esittir-btn {
+    background-color: rgba(0, 0, 255, 0.893);
+}
+#esittir-btn:hover {
+    background-color: rgb(77, 77, 255);
+}
+
+/* C ve sil kırmızı*/
+#temizle-btn, 
+#sil-btn {
+    background-color: #ff0000;
+}
+#temizle-btn:hover {
+    background-color: #fb4a4a;
+}
+#sil-btn:hover {
+    background-color: #fb4a4a;
+}
