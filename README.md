@@ -1,4 +1,4 @@
-# Hesap Makinesi
+# Calculator
 
 HTML, CSS ve saf JavaScript ile yazılmış, tarayıcıda çalışan basit bir hesap makinesi. Herhangi bir kütüphane veya kurulum gerektirmez.
 
